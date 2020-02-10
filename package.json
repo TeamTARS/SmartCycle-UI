@@ -2,6 +2,13 @@
   "name": "smartcycle-ui",
   "version": "0.1.0",
   "private": true,
+  "scripts": {
+    "start": "node scripts/start.js",
+    "build": "node scripts/build.js",
+    "test": "node scripts/test.js",
+    "check-format": "./node_modules/.bin/prettier --check \"./**/*.{js,jsx,ts,tsx,json,css,scss,md}\"",
+    "format": "./node_modules/.bin/prettier --write \"./**/*.{js,jsx,ts,tsx,json,css,scss,md}\""
+  },
   "dependencies": {
     "@babel/core": "7.8.4",
     "@svgr/webpack": "4.3.3",
@@ -76,11 +83,6 @@
     "eslint-config-prettier": "^6.10.0",
     "eslint-plugin-prettier": "^3.1.2",
     "prettier": "1.19.1"
-  },
-  "scripts": {
-    "start": "node scripts/start.js",
-    "build": "node scripts/build.js",
-    "test": "node scripts/test.js"
   },
   "eslintConfig": {
     "extends": [
