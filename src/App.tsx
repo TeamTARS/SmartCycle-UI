@@ -2,14 +2,14 @@ import "./App.css";
 
 import React from "react";
 
-import AboutPage from "./Pages/About/About";
+import AboutPage from "./Pages/About";
 import Header from "./Pages/CommonComponents/Header";
-import FeedbackPage from "./Pages/Feedback/Feedback";
-import HelpPage from "./Pages/Help/Help";
-import HomePage from "./Pages/Home/Home";
-import ItemPage from "./Pages/Item/Item";
-import ResultsPage from "./Pages/Results/Results";
-import SettingsPage from "./Pages/Settings/Settings";
+import FeedbackPage from "./Pages/Feedback";
+import HelpPage from "./Pages/Help";
+import HomePage from "./Pages/Home";
+import ItemPage from "./Pages/Item";
+import ResultsPage from "./Pages/Results";
+import SettingsPage from "./Pages/Settings";
 
 const App = () => {
   return (
